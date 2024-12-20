@@ -1,7 +1,5 @@
 ;; Cljfmt config. See https://github.com/weavejester/cljfmt#formatting-options
-{:legacy/merge-indents? true
- 
- :sort-ns-references?
+{:sort-ns-references?
  true
 
  :function-arguments-indentation
