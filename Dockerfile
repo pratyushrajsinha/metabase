@@ -34,7 +34,7 @@ RUN INTERACTIVE=false CI=true MB_EDITION=$MB_EDITION bin/build.sh :version ${VER
 
 FROM eclipse-temurin:21-jre-alpine as runner
 
-ENV FC_LANG en-US LC_CTYPE en_US.UTF-8
+ENV key=value
 
 # dependencies
 RUN apk add -U bash fontconfig curl font-noto font-noto-arabic font-noto-hebrew font-noto-cjk java-cacerts && \
